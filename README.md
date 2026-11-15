@@ -13,7 +13,7 @@ The study uses GBD 2021 incidence estimates for 1992–2021. It describes ecolog
 - `docs/private_input_manifest.json`: hashes and schemas of the original local input snapshots.
 - `docs/figure_source_map.csv`: figure-to-result mapping, using the final S2 age / S3 scenario numbering.
 - `docs/analysis_map.csv`: analysis-to-supplement mapping; `docs/supplement_sheet_map.csv` maps the 78 data/provenance sheets to Tables S1–S11.
-- `CITATION.cff` and `.zenodo.json`: release citation/archival metadata. No DOI is asserted until the archive is published.
+- `CITATION.cff` and `.zenodo.json`: release citation/archival metadata. Version 1.0.0 is archived at [doi:10.5281/zenodo.24244948](https://doi.org/10.5281/zenodo.24244948).
 
 ## Environment
 
@@ -73,4 +73,4 @@ Internal filename prefixes (S/A) identify reproducibility outputs; published sup
 
 ## License and citation
 
-Author-written code is MIT licensed; third-party data and dependencies retain their own terms. See `THIRD_PARTY_NOTICES.md`. Cite the versioned archived software release using `CITATION.cff`. The persistent archive identifier will be added only after the author confirms the GitHub Release and Zenodo archive.
+Author-written code is MIT licensed; third-party data and dependencies retain their own terms. See `THIRD_PARTY_NOTICES.md`. Cite the archived [v1.0.0 release](https://github.com/casper4869/CKD-DD-reproducibility/releases/tag/v1.0.0) using `CITATION.cff` and the version DOI [10.5281/zenodo.24244948](https://doi.org/10.5281/zenodo.24244948). This DOI identifies the unchanged v1.0.0 snapshot; later citation-metadata updates on `main` do not alter that archive.

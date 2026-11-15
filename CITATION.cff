@@ -3,6 +3,8 @@ message: "Please cite the archived release of this software and the associated m
 type: software
 title: "CKD-DD reproducibility: population-level co-burden and spatiotemporal analyses"
 version: 1.0.0
+doi: 10.5281/zenodo.24244948
+url: "https://github.com/casper4869/CKD-DD-reproducibility/releases/tag/v1.0.0"
 authors:
   - family-names: Qiu
     given-names: Zhengqi

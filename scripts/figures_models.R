@@ -1,0 +1,41 @@
+source('scripts/figures_descriptive.R');tmdir<-temporal_dir;spdir<-spatial_dir
+ar<-function(n)read.csv(file.path(tmdir,paste0(n,'.csv')))
+sr<-function(n)read.csv(file.path(spdir,paste0(n,'.csv')))
+models<-c('Original_VARX_p2','Original_ARIMAX_default','Naive');labs<-c('VARX p=2','ARIMAX','Last observation');cols<-setNames(c('#3B6E9A','#C9854C','#555555'),labs)
+labmodel<-function(z){z$model<-factor(z$model,levels=models,labels=labs);z}
+v<-bind_rows(ar('A7_forecast_validation')%>%filter(model%in%c('Original_VARX_p2','Naive')),ar('A28_original_ARIMAX_validation'))%>%filter(origin%in%c(2012,2015,2018),h<=3)%>%labmodel()
+short<-ar('A30_original_model_short_validation')%>%labmodel();end<-ar('A31_original_model_nine_year_endpoint')%>%labmodel()
+p1<-v%>%group_by(model,disease,origin)%>%summarise(MdAPE=median(APE),.groups='drop')%>%ggplot(aes(factor(origin),MdAPE,colour=model,group=model))+geom_line(linewidth=.5)+geom_point(size=1.5)+facet_wrap(~disease,scales='free_y')+scale_colour_manual(values=cols,name=NULL)+labs(x='Training endpoint',y='Three-year median APE (%)')
+covplot<-function(z,ylab){ggplot(filter(z,model!='Last observation'),aes(disease,100*coverage95,fill=model))+geom_col(position='dodge',width=.6)+geom_hline(yintercept=95,linetype=2,linewidth=.3,colour='grey45')+scale_fill_manual(values=cols,name=NULL)+scale_y_continuous(limits=c(0,100),breaks=c(0,25,50,75,95))+labs(x=NULL,y=ylab)}
+p2<-covplot(short,'Three-year interval coverage (%)')
+p3<-ggplot(end,aes(disease,median_APE,colour=model))+geom_point(position=position_dodge(width=.4),size=2)+scale_colour_manual(values=cols,name=NULL)+labs(x=NULL,y='Nine-year endpoint median APE (%)')
+p4<-covplot(end,'Nine-year endpoint coverage (%)')
+p2<-p2+theme(legend.position='none');p3<-p3+theme(legend.position='none');p4<-p4+theme(legend.position='none')
+saveplot((p1+p2)/(p3+p4)+plot_layout(guides='collect')+plot_annotation(tag_levels='A'),'Figure_4',183,175)
+s<-ar('A2_model_summary');g<-s[s$model=='original_raw_endo',]
+categories<-c('Both predictive tests','CKD to DD only','DD to CKD only','Neither test')
+counts<-function(c,d,b)c(b,c-b,d-b,204-c-d+b)
+z<-bind_rows(data.frame(spec='System-wide',category=categories,n=counts(g$joint_CKD_pooled,g$joint_DD_pooled,g$joint_both_pooled)),data.frame(spec='Disease equations',category=categories,n=counts(g$BH_CKD_to_DD,g$BH_DD_to_CKD,g$BH_both)))
+p1<-ggplot(z,aes(spec,n,fill=category))+geom_col(width=.6)+scale_fill_manual(values=sigpal,name=NULL)+labs(x=NULL,y='Countries and territories (n)')+ggtitle('Same model, different test targets')
+keep<-c('original_raw_endo','log_endo_const','raw_endo_trend','TY_log_endo_p2_d1_const','TY_log_endo_p2_d1_both')
+labels<-c('Levels + constant','Log levels + constant','Levels + trend','TY p2+d1 constant','TY p2+d1 trend')
+ss<-bind_rows(lapply(seq_along(keep),function(i){r<-s[s$model==keep[i],];data.frame(spec=labels[i],category=categories,n=counts(r$BH_CKD_to_DD,r$BH_DD_to_CKD,r$BH_both))}))
+pre<-ar('A20_matched_model_pre_pandemic_summary');r<-pre[pre$ending==2019,];ss<-bind_rows(ss,data.frame(spec='Levels through 2019',category=categories,n=counts(r$CKD_DD,r$DD_CKD,r$both)))
+ss$spec<-factor(ss$spec,levels=rev(c(labels,'Levels through 2019')))
+p2<-ggplot(ss,aes(n,spec,fill=category))+geom_col(width=.65)+scale_fill_manual(values=sigpal,name=NULL)+labs(x='Countries and territories (n)',y=NULL)+ggtitle('Disease-equation sensitivities')
+saveplot(p1/p2+plot_layout(guides='collect')+plot_annotation(tag_levels='A'),'Figure_5',183,160)
+g<-read('S12_GWR_coefficients');p<-list();lim<-max(abs(filter(g,spec=='primary')$coefficient))
+for(tar in c('CKD','DD')){z<-filter(g,target==tar,spec=='primary');p[[length(p)+1]]<-pointmap(z,'coefficient','Local coefficient')+scale_colour_gradient2(low='#3B6E9A',mid='white',high='#B45C58',midpoint=0,limits=c(-lim,lim),name='Local coefficient')+ggtitle(paste(tar,'as outcome'))}
+gg<-sr('GWR_sensitivity_coefficients')%>%filter(spec=='SDI_PM25')
+for(tar in c('CKD','DD')){z<-filter(gg,target==tar)%>%select(location_id,coordinate,coefficient)%>%pivot_wider(names_from=coordinate,values_from=coefficient);p[[length(p)+1]]<-ggplot(z,aes(original_city_points,land_geometry_points))+geom_abline(slope=1,intercept=0,linetype=2,linewidth=.3,colour='grey50')+geom_point(size=1.3,colour='#617D8B',alpha=.7)+labs(x='Archived city / reference points',y='Geometry reference points',title=paste(tar,'coordinate sensitivity'))}
+saveplot(wrap_plots(p,ncol=2)+plot_annotation(tag_levels='A'),'Figure_6',183,150)
+f<-ar('A27_original_ARIMAX_forecasts');f$year<-2021+f$h
+d<-read('S1_analysis_panel')%>%filter(sex_name=='Both');pop<-geo%>%arrange(desc(population));ids<-head(pop$location_id,3)
+nn<-setNames(c('China','India','United States')[match(pop$location_name[1:3],c("People's Republic of China",'Republic of India','United States of America'))],ids)
+hist<-d%>%filter(location_id%in%ids)%>%pivot_longer(c(CKD,DD),names_to='disease',values_to='rate');hist$country<-unname(nn[as.character(hist$location_id)])
+f<-filter(f,location_id%in%ids);f$country<-unname(nn[as.character(f$location_id)]);f$scenario<-factor(f$scenario,levels=c('hold','trend'),labels=c('Constant SDI','Bounded SDI trend'))
+stopifnot(all(f$median>0),all(f$lower>0),all(is.finite(f$upper)))
+p<-ggplot()+geom_ribbon(data=f,aes(year,ymin=lower,ymax=upper,fill=scenario),alpha=.16)+geom_line(data=hist,aes(year,rate),colour='#333333',linewidth=.45)+geom_line(data=f,aes(year,median,colour=scenario),linewidth=.55)+geom_vline(xintercept=2021.5,linetype=2,colour='grey50',linewidth=.3)+facet_grid(disease~country,scales='free_y')+scale_colour_manual(values=c('#3B6E9A','#C9854C'),name=NULL)+scale_fill_manual(values=c('#3B6E9A','#C9854C'),name=NULL)+scale_y_log10()+scale_x_continuous(breaks=c(1992,2010,2030))+labs(x='Year',y='ASIR per 100,000 (log scale)')
+saveplot(p,'Figure_S3',183,145)
+th<-read('S4_threshold_sensitivity');p<-ggplot(th,aes(threshold_percentile,observed,colour=sex))+geom_line()+geom_point()+geom_line(aes(y=expected),linetype=2,colour='grey45')+scale_colour_manual(values=c(Both='#617D8B',Female='#8C6BB1',Male='#3B6E9A'),name=NULL)+scale_x_continuous(breaks=c(70,75,80))+labs(x='Threshold percentile',y='Joint upper-tail countries (n)');saveplot(p,'Figure_S1',150,85)
+cat('Primary figures and scenario figure complete\n')

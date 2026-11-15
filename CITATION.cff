@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite the archived release of this software and the associated manuscript when available."
+type: software
+title: "CKD-DD reproducibility: population-level co-burden and spatiotemporal analyses"
+version: 1.0.0
+authors:
+  - family-names: Qiu
+    given-names: Zhengqi
+  - family-names: Zhao
+    given-names: Xiaoyan
+  - family-names: Zhang
+    given-names: Xueqin
+license: MIT
+keywords:
+  - chronic kidney disease
+  - depressive disorders
+  - Global Burden of Disease 2021
+  - ecological analysis
+abstract: "Analysis code and aggregate reference results for Population-level co-burden and spatiotemporal patterns of chronic kidney disease and depressive disorders across 204 countries and territories. GBD source data are not redistributed."

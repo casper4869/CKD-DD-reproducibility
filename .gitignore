@@ -1,0 +1,15 @@
+data/private/*
+!data/private/README.md
+results/
+.cache/
+*.RData
+*.rds
+*.Rhistory
+.Rproj.user/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.key
+*.pem
+*.log

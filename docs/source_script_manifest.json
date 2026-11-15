@@ -1,0 +1,74 @@
+[
+  {
+    "script": "scripts/core_analysis.R",
+    "source": "run_reanalysis.R",
+    "source_sha256": "421fb4c37806e0071ed7bdaac67e0e6f7195589f62abc23e334574d1cfa25988",
+    "adapted_sha256": "6f1ef6b5d3aa236e081650022285f42e922b539de5786e1f04fcfc07c835dbcc"
+  },
+  {
+    "script": "scripts/temporal_models.R",
+    "source": "temporal/audit_temporal.R",
+    "source_sha256": "7982e746eae9374ed2f4ff5949544b2488227435c985e27db9815227259c6e80",
+    "adapted_sha256": "5f9a1993594217f6cffb2caf015a0ceb82119b59f8c111c8cf3f9deea2bbadca"
+  },
+  {
+    "script": "scripts/temporal_diagnostics.R",
+    "source": "temporal/additional_diagnostics.R",
+    "source_sha256": "da8dc229744a76d94e2b3e3230629b227cba8208bc566ba57cec3b94ded06ec5",
+    "adapted_sha256": "7e6042ffa44f41b33159f171951baa4f78f019697b6fb3a14a671a0141819e63"
+  },
+  {
+    "script": "scripts/temporal_summary.R",
+    "source": "temporal/summarize_final_audit.R",
+    "source_sha256": "83df48d63dad14be88442066a6800244c2947790a9785c7d2fe0f99bc788bb52",
+    "adapted_sha256": "fd88bc27d3be256ef0cb5cec6d26f4b97e6929f2df06dc596416001329e49b64"
+  },
+  {
+    "script": "scripts/arimax_scenarios.R",
+    "source": "temporal/audit_original_arimax.R",
+    "source_sha256": "2bfcff9bbb6935b3b2d35572fba63d9b440f256b579dbc7309eb48f9f9af3422",
+    "adapted_sha256": "72c1142dcc8dd56b21e60519df53ddb3584ca6cb0381c360d2401e816dba86a0"
+  },
+  {
+    "script": "scripts/summarize_original_arimax.R",
+    "source": "temporal/summarize_original_arimax.R",
+    "source_sha256": "70bda83180e2bfd6b869be7ea8ea6226891e3c8ba06d2e7371ef3eed19d4260f",
+    "adapted_sha256": "ff9466d1cbeac007a1d7fb3ad883c9624dc96d568bc4f968f87209a73bb9df6c"
+  },
+  {
+    "script": "scripts/summarize_raw_arimax.R",
+    "source": "temporal/summarize_raw_arimax.R",
+    "source_sha256": "d020803b0be3ae6a820822c271af2697a7d9c1a5b80b29fd6a226b52812554ee",
+    "adapted_sha256": "a702636d25395a10d6a90c36d1fa3d00b0dd36d95b811f55e84ea3fe0dd27fcb"
+  },
+  {
+    "script": "scripts/spatial_age_analysis.R",
+    "source": "spatial/run_spatial_age_audit.R",
+    "source_sha256": "34e652313e0d9fa9bbc56a3741b92f0f1f4e19c697a802ceddefd3a75d1b266d",
+    "adapted_sha256": "6b1b2f838b8b9d2674f205b7bb3da9e49d2d2982d6f9c09678884f994a8f8440"
+  },
+  {
+    "script": "scripts/verify_spatial_math.R",
+    "source": "spatial/verify_spatial_math.R",
+    "source_sha256": "f435972b2b4786e6c9c862af30845af98fd7dcd3b99344593e0b1e5ec39a80ae",
+    "adapted_sha256": "88badf009451aef512a7b74344dbde4121a7b49a085bcde9dc9de524728801f3"
+  },
+  {
+    "script": "scripts/align_moran_reporting.R",
+    "source": "update_moran_v2.R",
+    "source_sha256": "d2d0831fa88fb53e54acd14036b0b0a3512800ae45027356a665128ceeda6dcf",
+    "adapted_sha256": "3461b13b79c32fdb47bc1d636302a644db35db57007e259de325d0d8a2bf7930"
+  },
+  {
+    "script": "scripts/figure6_local_signals.R",
+    "source": "make_figure6_v3.R",
+    "source_sha256": "f24ceb9ae19f0be566bb26d46b5b3a04575956daa4e4c2fefee5a21562d94e45",
+    "adapted_sha256": "e11f2bbe8a5b8c819172779ea793a9c331c6e7c821615ccaf52071993b654572"
+  },
+  {
+    "script": "scripts/figureS2_age_temporal.R",
+    "source": "spatial/make_age_figure.R",
+    "source_sha256": "da3f2e055822e23210148af66aa6fb93a300a0c4d2b3e586801e9c893999eff7",
+    "adapted_sha256": "045abf9b1baa475fc1f4a2468a429e01e7196b4b08f3c7bcfa5ef6768dbe3edc"
+  }
+]

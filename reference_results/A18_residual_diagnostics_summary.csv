@@ -1,0 +1,6 @@
+"model","n","PT4_reject","PT8_reject","ES1_reject","ES2_reject","median_abs_residual_lag1_CKD","median_abs_residual_lag1_DD","stable"
+"TY_log_endo_p2_d1_both",204,204,188,100,161,0.103635784139543,0.148933113856715,0
+"TY_log_endo_p2_d1_const",204,204,178,96,144,0.103389718215658,0.12570973566331,1
+"TY_log_endo_p2_d2_both",204,0,204,103,141,0.250133848587021,0.227257039665919,0
+"TY_log_endo_p2_d2_const",204,0,203,91,148,0.212665820298433,0.200830538482857,0
+"original_raw_endo",204,204,163,159,192,0.331859683297946,0.064751759158558,11

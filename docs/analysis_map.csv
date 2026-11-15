@@ -1,0 +1,12 @@
+supplementary_table,subject,main_scripts,output_prefixes
+Table S1,Data provenance and analytic units,DATA_ACCESS.md and input manifests,metadata
+Table S2,Co-burden ranks and threshold sensitivity,core_analysis.R,S1-S4 and A23
+Table S3,Age profiles and country-average reference sensitivity,core_analysis.R and run_age_reference.py,S5-S8 and S3_age_reference_*
+Table S4,Age-specific temporal correlations,spatial_age_analysis.R,age_time_*
+Table S5,Forecast validation,temporal_models.R and arimax_scenarios.R,A7 and A28 and A30-A32
+Table S6,Conditional scenarios and classification checks,arimax_scenarios.R and temporal_summary.R,A6 and A14-A15 and A24 and A27 and A33-A45
+Table S7,Primary temporal tests and specification sensitivities,temporal_models.R and temporal_diagnostics.R,A1-A5 and A19-A20
+Table S8,Residual and leverage diagnostics,temporal_diagnostics.R,A17-A18 and A21-A22
+Table S9,Spatial coefficients and coordinate/adjustment sensitivities,core_analysis.R and spatial_age_analysis.R,S12-S13 and GWR_* and global_OLS_*
+Table S10,Country spatial output dictionary,Supplementary Materials,metadata
+Table S11,Spatial input data and source mapping,core_analysis.R and public reference point tables,S11

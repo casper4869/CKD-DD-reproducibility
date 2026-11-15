@@ -1,0 +1,28 @@
+{
+  "title": "CKD-DD reproducibility: population-level co-burden and spatiotemporal analyses",
+  "description": "Analysis code, data acquisition instructions and aggregate published reference results for the CKD-DD ecological study across 204 countries and territories, 1992-2021. GBD source data are excluded and remain subject to IHME access and publication terms.",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Qiu, Zhengqi",
+      "affiliation": "Guangzhou Medical University"
+    },
+    {
+      "name": "Zhao, Xiaoyan",
+      "affiliation": "Guangzhou Medical University"
+    },
+    {
+      "name": "Zhang, Xueqin",
+      "affiliation": "Guangzhou Medical University"
+    }
+  ],
+  "access_right": "open",
+  "license": "mit",
+  "version": "1.0.0",
+  "keywords": [
+    "chronic kidney disease",
+    "depressive disorders",
+    "GBD 2021",
+    "ecological analysis"
+  ]
+}

@@ -1,0 +1,205 @@
+location_id,location_name,map_name,iso3,geometry_lng,geometry_lat,naturalearth_name,point_method,coordinate_displacement_km
+6,People's Republic of China,China,CHN,99.5727174340793,37.209853742358,China,"Natural Earth 10m largest polygon interior point, country-centred LAEA",2038.29426065552
+7,Democratic People's Republic of Korea,North Korea,PRK,126.767413590264,40.3742216945286,North Korea,"Natural Earth 10m largest polygon interior point, country-centred LAEA",174.268800529347
+8,Taiwan (Province of China),Taiwan,TWN,120.822763786335,23.568292244192,Taiwan,"Natural Earth 10m largest polygon interior point, country-centred LAEA",65.4032980554906
+10,Kingdom of Cambodia,Cambodia,KHM,105.097061419829,12.5755549593345,Cambodia,"Natural Earth 10m largest polygon interior point, country-centred LAEA",112.919506113378
+11,Republic of Indonesia,Indonesia,IDN,113.325379965552,0.102244924071585,Indonesia,"Natural Earth 10m largest polygon interior point, country-centred LAEA",1001.51440600909
+12,Lao People's Democratic Republic,Laos,LAO,102.145571680104,18.2237647683246,Laos,"Natural Earth 10m largest polygon interior point, country-centred LAEA",57.9388364961582
+13,Malaysia,Malaysia,MYS,114.613744650165,3.93835936277171,Malaysia,"Natural Earth 10m largest polygon interior point, country-centred LAEA",1437.52779411412
+14,Republic of Maldives,Maldives,MDV,73.5338633133363,4.19947446404436,Maldives,"Natural Earth 10m largest polygon interior point, country-centred LAEA",3.85060681956231
+15,Republic of the Union of Myanmar,Myanmar,MMR,95.9115934439567,19.2897065970638,Myanmar,"Natural Earth 10m largest polygon interior point, country-centred LAEA",277.365083276901
+16,Republic of the Philippines,Philippines,PHL,120.735889890548,15.5954742378137,Philippines,"Natural Earth 10m largest polygon interior point, country-centred LAEA",113.613984314993
+17,Democratic Socialist Republic of Sri Lanka,Sri Lanka,LKA,80.6673417164756,7.87984123766435,Sri Lanka,"Natural Earth 10m largest polygon interior point, country-centred LAEA",140.79532076095
+18,Kingdom of Thailand,Thailand,THA,101.686899179218,13.0440373652599,Thailand,"Natural Earth 10m largest polygon interior point, country-centred LAEA",151.097393041691
+19,Democratic Republic of Timor-Leste,Timor-Leste,TLS,125.764103054924,-8.88166228020256,East Timor,"Natural Earth 10m largest polygon interior point, country-centred LAEA",41.0241315998242
+20,Socialist Republic of Viet Nam,Vietnam,VNM,107.856514762316,15.9693869499583,Vietnam,"Natural Earth 10m largest polygon interior point, country-centred LAEA",588.049908369945
+22,Republic of Fiji,Fiji,FJI,177.984405930162,-17.7851848743071,Fiji,"Natural Earth 10m largest polygon interior point, country-centred LAEA",61.2009636357301
+23,Republic of Kiribati,Kiribati,KIR,-157.377892858495,1.87057243942316,Kiribati,"Natural Earth 10m largest polygon interior point, country-centred LAEA",3294.75989708653
+24,Republic of the Marshall Islands,Marshall Islands,MHL,171.099259836842,7.12268799816025,Marshall Islands,"Natural Earth 10m largest polygon interior point, country-centred LAEA",31.6790410388741
+25,Federated States of Micronesia,Micronesia,FSM,158.247463832261,6.88504230603339,Federated States of Micronesia,"Natural Earth 10m largest polygon interior point, country-centred LAEA",708.395031554584
+26,Independent State of Papua New Guinea,Papua New Guinea,PNG,144.35883336882,-6.67384562437691,Papua New Guinea,"Natural Earth 10m largest polygon interior point, country-centred LAEA",436.835811092088
+27,Independent State of Samoa,Samoa,WSM,-172.430567897931,-13.6355015214909,Samoa,"Natural Earth 10m largest polygon interior point, country-centred LAEA",76.7920925945822
+28,Solomon Islands,Solomon Islands,SLB,160.147937361897,-9.58900798750193,Solomon Islands,"Natural Earth 10m largest polygon interior point, country-centred LAEA",27.7294837617956
+29,Kingdom of Tonga,Tonga,TON,-175.283317553253,-21.1660438756584,Tonga,"Natural Earth 10m largest polygon interior point, country-centred LAEA",9.38258044675707
+30,Republic of Vanuatu,Vanuatu,VUT,167.035453060278,-15.1416312641737,Vanuatu,"Natural Earth 10m largest polygon interior point, country-centred LAEA",317.764478142977
+33,Republic of Armenia,Armenia,ARM,44.8351508434022,40.0841679867964,Armenia,"Natural Earth 10m largest polygon interior point, country-centred LAEA",29.3917138146728
+34,Republic of Azerbaijan,Azerbaijan,AZE,47.72595418933,40.1369413494958,Azerbaijan,"Natural Earth 10m largest polygon interior point, country-centred LAEA",181.253013747914
+35,Georgia,Georgia,GEO,43.6376533480955,42.3044703006875,Georgia,"Natural Earth 10m largest polygon interior point, country-centred LAEA",115.45095214879
+36,Republic of Kazakhstan,Kazakhstan,KAZ,67.9588447069353,48.0139559366609,Kazakhstan,"Natural Earth 10m largest polygon interior point, country-centred LAEA",876.15607086579
+37,Kyrgyz Republic,Kyrgyzstan,KGZ,75.0537273824655,41.2389831179203,Kyrgyzstan,"Natural Earth 10m largest polygon interior point, country-centred LAEA",185.238905934469
+38,Mongolia,Mongolia,MNG,103.740855417837,46.9157916070987,Mongolia,"Natural Earth 10m largest polygon interior point, country-centred LAEA",263.652264248174
+39,Republic of Tajikistan,Tajikistan,TJK,70.8728084451284,38.854711755182,Tajikistan,"Natural Earth 10m largest polygon interior point, country-centred LAEA",185.452766618139
+40,Turkmenistan,Turkmenistan,TKM,59.2310430650591,38.9863833166022,Turkmenistan,"Natural Earth 10m largest polygon interior point, country-centred LAEA",138.105728946033
+41,Republic of Uzbekistan,Uzbekistan,UZB,63.3546200391058,41.4578499235908,Uzbekistan,"Natural Earth 10m largest polygon interior point, country-centred LAEA",495.770230425682
+43,Republic of Albania,Albania,ALB,20.0056841451171,41.1469956053083,Albania,"Natural Earth 10m largest polygon interior point, country-centred LAEA",25.4266746921344
+44,Bosnia and Herzegovina,Bosnia and Herzegovina,BIH,17.9377370118818,43.9254556081419,Bosnia and Herzegovina,"Natural Earth 10m largest polygon interior point, country-centred LAEA",38.9597470363272
+45,Republic of Bulgaria,Bulgaria,BGR,25.1801678078052,42.7474152336509,Bulgaria,"Natural Earth 10m largest polygon interior point, country-centred LAEA",152.317169739575
+46,Republic of Croatia,Croatia,HRV,15.3189420203788,44.7483106192502,Croatia,"Natural Earth 10m largest polygon interior point, country-centred LAEA",129.117046279341
+47,Czech Republic,NA,CZE,15.5069234088827,49.8012953003165,Czechia,"Natural Earth 10m largest polygon interior point, country-centred LAEA",84.168236144349
+48,Hungary,Hungary,HUN,19.1384306947904,47.1589508156979,Hungary,"Natural Earth 10m largest polygon interior point, country-centred LAEA",38.4432316684771
+49,North Macedonia,North Macedonia,MKD,21.7302218476364,41.6132232341828,North Macedonia,"Natural Earth 10m largest polygon interior point, country-centred LAEA",49.2333549441977
+50,Montenegro,Montenegro,MNE,19.2897139592493,42.7038495692188,Montenegro,"Natural Earth 10m largest polygon interior point, country-centred LAEA",29.2379614549926
+51,Republic of Poland,Poland,POL,19.1074655563111,51.9469293981115,Poland,"Natural Earth 10m largest polygon interior point, country-centred LAEA",134.222985600999
+52,Romania,Romania,ROU,24.3451791689825,45.9689753512779,Romania,"Natural Earth 10m largest polygon interior point, country-centred LAEA",219.654289873296
+53,Republic of Serbia,Serbia,SRB,20.9934305751108,44.2083533248958,Republic of Serbia,"Natural Earth 10m largest polygon interior point, country-centred LAEA",80.0395713520133
+54,Slovak Republic,Slovakia,SVK,19.6062603596656,48.6786827039785,Slovakia,"Natural Earth 10m largest polygon interior point, country-centred LAEA",193.894154267003
+55,Republic of Slovenia,Slovenia,SVN,14.6154905695037,46.1543201625628,Slovenia,"Natural Earth 10m largest polygon interior point, country-centred LAEA",14.2271545338338
+57,Republic of Belarus,Belarus,BLR,27.9993883980625,53.7064273963445,Belarus,"Natural Earth 10m largest polygon interior point, country-centred LAEA",36.19993046843
+58,Republic of Estonia,Estonia,EST,25.5215583937878,58.5955374758663,Estonia,"Natural Earth 10m largest polygon interior point, country-centred LAEA",103.821087676363
+59,Republic of Latvia,Latvia,LVA,24.3450951383853,56.8694678765238,Latvia,"Natural Earth 10m largest polygon interior point, country-centred LAEA",16.9138922332252
+60,Republic of Lithuania,Lithuania,LTU,24.0904477990733,55.1662545707681,Lithuania,"Natural Earth 10m largest polygon interior point, country-centred LAEA",93.057408341898
+61,Republic of Moldova,Moldova,MDA,28.8218078884067,46.9754230525379,Moldova,"Natural Earth 10m largest polygon interior point, country-centred LAEA",5.36601863101202
+62,Russian Federation,Russia,RUS,106.595987150151,61.8052049063893,Russia,"Natural Earth 10m largest polygon interior point, country-centred LAEA",3852.22197086619
+63,Ukraine,Ukraine,UKR,31.0456632076512,48.8047250031009,Ukraine,"Natural Earth 10m largest polygon interior point, country-centred LAEA",186.842010388261
+66,Brunei Darussalam,Brunei,BRN,114.468435412241,4.53804274568208,Brunei,"Natural Earth 10m largest polygon interior point, country-centred LAEA",65.4219692267338
+67,Japan,Japan,JPN,139.844937524983,37.5084455984843,Japan,"Natural Earth 10m largest polygon interior point, country-centred LAEA",202.307988983736
+68,Republic of Korea,South Korea,KOR,127.999125184897,36.4627375716458,South Korea,"Natural Earth 10m largest polygon interior point, country-centred LAEA",152.256700429549
+69,Republic of Singapore,Singapore,SGP,103.830542013501,1.36455581918222,Singapore,"Natural Earth 10m largest polygon interior point, country-centred LAEA",7.9060939804925
+71,Australia,Australia,AUS,132.698385257432,-25.265005928228,Australia,"Natural Earth 10m largest polygon interior point, country-centred LAEA",1810.98202858402
+72,New Zealand,New Zealand,NZL,171.20498557218,-43.6090894748713,New Zealand,"Natural Earth 10m largest polygon interior point, country-centred LAEA",809.256545922988
+74,Principality of Andorra,Andorra,AND,1.56171506739165,42.5360961367147,Andorra,"Natural Earth 10m largest polygon interior point, country-centred LAEA",6.46508707693529
+75,Republic of Austria,Austria,AUT,14.7353099841737,47.6950667930885,Austria,"Natural Earth 10m largest polygon interior point, country-centred LAEA",134.94558174608
+76,Kingdom of Belgium,Belgium,BEL,4.849818737064,50.4960938103314,Belgium,"Natural Earth 10m largest polygon interior point, country-centred LAEA",52.5085212741797
+77,Republic of Cyprus,Cyprus,CYP,32.9801001733976,34.907221486817,Cyprus,"Natural Earth 10m largest polygon interior point, country-centred LAEA",45.8207137369138
+78,Kingdom of Denmark,Denmark,DNK,9.26047220050413,56.2816598605784,Denmark,"Natural Earth 10m largest polygon interior point, country-centred LAEA",216.633145970737
+79,Republic of Finland,Finland,FIN,27.5237237548558,64.9793396947417,Finland,"Natural Earth 10m largest polygon interior point, country-centred LAEA",552.063205919814
+80,French Republic,France,FRA,2.17833686118971,46.7008364369158,France,"Natural Earth 10m largest polygon interior point, country-centred LAEA",240.057860090653
+81,Federal Republic of Germany,Germany,DEU,10.0988016645647,51.0915809819589,Germany,"Natural Earth 10m largest polygon interior point, country-centred LAEA",277.918493931543
+82,Hellenic Republic,Greece,GRC,21.8991510971778,39.1143631671354,Greece,"Natural Earth 10m largest polygon interior point, country-centred LAEA",202.868742023308
+83,Republic of Iceland,Iceland,ISL,-18.9351432969524,64.9675292164542,Iceland,"Natural Earth 10m largest polygon interior point, country-centred LAEA",170.830242362433
+84,Ireland,Ireland,IRL,-7.96249355099266,53.4264205563494,Ireland,"Natural Earth 10m largest polygon interior point, country-centred LAEA",113.571570739771
+85,State of Israel,Israel,ISR,34.6634032290492,31.4471966901012,Israel,"Natural Earth 10m largest polygon interior point, country-centred LAEA",64.7953985689893
+86,Republic of Italy,Italy,ITA,12.6634995534605,42.5497757312384,Italy,"Natural Earth 10m largest polygon interior point, country-centred LAEA",74.4526616105244
+87,Grand Duchy of Luxembourg,Luxembourg,LUX,6.06489682773749,49.8075754262868,Luxembourg,"Natural Earth 10m largest polygon interior point, country-centred LAEA",22.315708861373
+88,Republic of Malta,Malta,MLT,14.4381417617296,35.8950483321972,Malta,"Natural Earth 10m largest polygon interior point, country-centred LAEA",6.72283562151025
+89,Kingdom of the Netherlands,Netherlands,NLD,5.50109957011138,52.1027957080777,Netherlands,"Natural Earth 10m largest polygon interior point, country-centred LAEA",66.9628527607773
+90,Kingdom of Norway,Norway,NOR,13.1204657022628,64.9478435296848,Norway,"Natural Earth 10m largest polygon interior point, country-centred LAEA",574.337165473656
+91,Portuguese Republic,Portugal,PRT,-8.29170681093023,39.5680224008204,Portugal,"Natural Earth 10m largest polygon interior point, country-centred LAEA",119.707450034242
+92,Kingdom of Spain,Spain,ESP,-3.48040189074033,39.9442366369556,Spain,"Natural Earth 10m largest polygon interior point, country-centred LAEA",55.8118312910776
+93,Kingdom of Sweden,Sweden,SWE,14.8797291551277,62.2086366635446,Sweden,"Natural Earth 10m largest polygon interior point, country-centred LAEA",364.598118993008
+94,Swiss Confederation,Switzerland,CHE,8.42186920759803,46.8128753387567,Switzerland,"Natural Earth 10m largest polygon interior point, country-centred LAEA",63.0796877740776
+95,United Kingdom of Great Britain and Northern Ireland,UK,GBR,-1.91749605575466,54.3446408077716,United Kingdom,"Natural Earth 10m largest polygon interior point, country-centred LAEA",337.906345658979
+97,Argentine Republic,Argentina,ARG,-63.9175763590335,-37.110739567931,Argentina,"Natural Earth 10m largest polygon interior point, country-centred LAEA",572.081470404916
+98,Republic of Chile,Chile,CHL,-71.4867173562818,-35.7474514269247,Chile,"Natural Earth 10m largest polygon interior point, country-centred LAEA",267.513853270835
+99,Eastern Republic of Uruguay,Uruguay,URY,-55.8198331777728,-32.548692440616,Uruguay,"Natural Earth 10m largest polygon interior point, country-centred LAEA",263.595392499175
+101,Canada,Canada,CAN,-112.720985164568,58.2633746740903,Canada,"Natural Earth 10m largest polygon interior point, country-centred LAEA",2798.5522514448
+102,United States of America,USA,USA,-98.863671267121,38.656640388542,United States of America,"Natural Earth 10m largest polygon interior point, country-centred LAEA",2144.32888089875
+105,Antigua and Barbuda,Antigua,ATG,-61.7882119797445,17.0791933407253,Antigua and Barbuda,"Natural Earth 10m largest polygon interior point, country-centred LAEA",7.77653724957321
+106,Commonwealth of the Bahamas,Bahamas,BHS,-78.0183907167963,24.738596814045,The Bahamas,"Natural Earth 10m largest polygon interior point, country-centred LAEA",75.5153332306238
+107,Barbados,Barbados,BRB,-59.5661594178686,13.193684946624,Barbados,"Natural Earth 10m largest polygon interior point, country-centred LAEA",11.8553505626247
+108,Belize,Belize,BLZ,-88.7244111506364,17.1979795211266,Belize,"Natural Earth 10m largest polygon interior point, country-centred LAEA",65.9558067159989
+109,Republic of Cuba,Cuba,CUB,-77.9507308485708,21.5390167573202,Cuba,"Natural Earth 10m largest polygon interior point, country-centred LAEA",487.320833999928
+110,Commonwealth of Dominica,Dominica,DMA,-61.3454336506949,15.4253554461479,Dominica,"Natural Earth 10m largest polygon interior point, country-centred LAEA",14.4674336994647
+111,Dominican Republic,Dominican Republic,DOM,-70.1153297343534,18.7740341232072,Dominican Republic,"Natural Earth 10m largest polygon interior point, country-centred LAEA",96.7507002804405
+112,Grenada,Grenada,GRD,-61.6774808669398,12.1233264195091,Grenada,"Natural Earth 10m largest polygon interior point, country-centred LAEA",11.3192951195661
+113,Republic of Guyana,Guyana,GUY,-58.9562565631691,4.86333921635086,Guyana,"Natural Earth 10m largest polygon interior point, country-centred LAEA",231.93089564343
+114,Republic of Haiti,Haiti,HTI,-72.2722603225595,18.9929637486823,Haiti,"Natural Earth 10m largest polygon interior point, country-centred LAEA",50.3495552936809
+115,Jamaica,Jamaica,JAM,-77.1751369601536,18.1203738596336,Jamaica,"Natural Earth 10m largest polygon interior point, country-centred LAEA",43.6805940472204
+116,Saint Lucia,Saint Lucia,LCA,-60.9777014471246,13.9131683480227,Saint Lucia,"Natural Earth 10m largest polygon interior point, country-centred LAEA",10.8754975274239
+117,Saint Vincent and the Grenadines,Saint Vincent,VCT,-61.1970486081645,13.263140973373,Saint Vincent and the Grenadines,"Natural Earth 10m largest polygon interior point, country-centred LAEA",14.6483063237225
+118,Republic of Suriname,Suriname,SUR,-56.1068857468951,3.91608250874792,Suriname,"Natural Earth 10m largest polygon interior point, country-centred LAEA",236.364621009789
+119,Republic of Trinidad and Tobago,Trinidad,TTO,-61.2596060102532,10.4403195372139,Trinidad and Tobago,"Natural Earth 10m largest polygon interior point, country-centred LAEA",17.538535961291
+121,Plurinational State of Bolivia,Bolivia,BOL,-64.5507519424264,-16.2957493309431,Bolivia,"Natural Earth 10m largest polygon interior point, country-centred LAEA",219.251507920102
+122,Republic of Ecuador,Ecuador,ECU,-78.2814688933299,-1.79002659183682,Ecuador,"Natural Earth 10m largest polygon interior point, country-centred LAEA",184.067151605832
+123,Republic of Peru,Peru,PER,-75.7939837563372,-9.19325234365949,Peru,"Natural Earth 10m largest polygon interior point, country-centred LAEA",345.049167190405
+125,Republic of Colombia,Colombia,COL,-72.4960795902951,4.11215401767357,Colombia,"Natural Earth 10m largest polygon interior point, country-centred LAEA",187.053226441796
+126,Republic of Costa Rica,Costa Rica,CRI,-83.6369853411107,9.62588455037208,Costa Rica,"Natural Earth 10m largest polygon interior point, country-centred LAEA",59.2659192671498
+127,Republic of El Salvador,El Salvador,SLV,-88.9139383083414,13.8012550223467,El Salvador,"Natural Earth 10m largest polygon interior point, country-centred LAEA",32.0729937508722
+128,Republic of Guatemala,Guatemala,GTM,-90.2799169785404,15.7699382460971,Guatemala,"Natural Earth 10m largest polygon interior point, country-centred LAEA",127.33307655921
+129,Republic of Honduras,Honduras,HND,-87.2351114914863,14.5041450618137,Honduras,"Natural Earth 10m largest polygon interior point, country-centred LAEA",45.0180360449445
+130,United Mexican States,Mexico,MEX,-102.38188595941,24.0613527448458,Mexico,"Natural Earth 10m largest polygon interior point, country-centred LAEA",612.72879188637
+131,Republic of Nicaragua,Nicaragua,NIC,-85.556662282017,12.8561852851607,Nicaragua,"Natural Earth 10m largest polygon interior point, country-centred LAEA",109.740981137103
+132,Republic of Panama,Panama,PAN,-81.4704683839818,8.41883705540733,Panama,"Natural Earth 10m largest polygon interior point, country-centred LAEA",221.610527024292
+133,Bolivarian Republic of Venezuela,Venezuela,VEN,-65.4067219221521,6.44089648104899,Venezuela,"Natural Earth 10m largest polygon interior point, country-centred LAEA",476.203847192125
+135,Federative Republic of Brazil,Brazil,BRA,-49.7478485294427,-14.3066499532853,Brazil,"Natural Earth 10m largest polygon interior point, country-centred LAEA",1074.35706486826
+136,Republic of Paraguay,Paraguay,PRY,-58.4285918818245,-23.4581285807663,Paraguay,"Natural Earth 10m largest polygon interior point, country-centred LAEA",218.440225778671
+139,People's Democratic Republic of Algeria,Algeria,DZA,0.610921890782477,28.0728909365091,Algeria,"Natural Earth 10m largest polygon interior point, country-centred LAEA",988.047243611409
+140,Kingdom of Bahrain,Bahrain,BHR,50.5447863100978,26.0021062367905,Bahrain,"Natural Earth 10m largest polygon interior point, country-centred LAEA",24.8756549336897
+141,Arab Republic of Egypt,Egypt,EGY,29.4640294158252,26.8612256938112,Egypt,"Natural Earth 10m largest polygon interior point, country-centred LAEA",393.136509388936
+142,Islamic Republic of Iran,Iran,IRN,54.0025508304338,32.7047234273311,Iran,"Natural Earth 10m largest polygon interior point, country-centred LAEA",409.318074237764
+143,Republic of Iraq,Iraq,IRQ,42.4991991234741,33.2409158131615,Iraq,"Natural Earth 10m largest polygon interior point, country-centred LAEA",174.111721407885
+144,Hashemite Kingdom of Jordan,Jordan,JOR,36.2935851718381,31.2960214758423,Jordan,"Natural Earth 10m largest polygon interior point, country-centred LAEA",80.1566728757941
+145,State of Kuwait,Kuwait,KWT,47.4178301482089,29.3159160437603,Kuwait,"Natural Earth 10m largest polygon interior point, country-centred LAEA",54.7558561094001
+146,Lebanese Republic,Lebanon,LBN,35.8967291848432,33.8729219407644,Lebanon,"Natural Earth 10m largest polygon interior point, country-centred LAEA",36.2719448804968
+147,State of Libya,Libya,LBY,17.193893396082,26.4807369357239,Libya,"Natural Earth 10m largest polygon interior point, country-centred LAEA",808.740087163987
+148,Kingdom of Morocco,Morocco,MAR,-9.7725459896555,28.7896274981522,Morocco,"Natural Earth 10m largest polygon interior point, country-centred LAEA",565.802400239366
+149,Palestine,Palestine,PSE,35.2756200656125,31.9421756150221,Palestine,"Natural Earth 10m largest polygon interior point, country-centred LAEA",91.4515268569552
+150,Sultanate of Oman,Oman,OMN,56.9786668511171,20.8434576080374,Oman,"Natural Earth 10m largest polygon interior point, country-centred LAEA",348.921447787734
+151,State of Qatar,Qatar,QAT,51.1379448754381,25.3641278783523,Qatar,"Natural Earth 10m largest polygon interior point, country-centred LAEA",40.7189839362522
+152,Kingdom of Saudi Arabia,Saudi Arabia,SAU,44.7632575991569,24.3050874642904,Saudi Arabia,"Natural Earth 10m largest polygon interior point, country-centred LAEA",201.008567561367
+153,Syrian Arab Republic,Syria,SYR,38.5540449387089,34.8651291101811,Syria,"Natural Earth 10m largest polygon interior point, country-centred LAEA",257.111565970362
+154,Republic of Tunisia,Tunisia,TUN,8.8892989007578,33.7684015687966,Tunisia,"Natural Earth 10m largest polygon interior point, country-centred LAEA",356.959730981097
+155,Republic of Turkey,Turkey,TUR,35.5160439778974,38.9644641465111,Turkey,"Natural Earth 10m largest polygon interior point, country-centred LAEA",604.588650766767
+156,United Arab Emirates,NA,ARE,55.1366489101112,24.3506164474113,United Arab Emirates,"Natural Earth 10m largest polygon interior point, country-centred LAEA",102.371061177485
+157,Republic of Yemen,Yemen,YEM,47.4867483087517,15.8386284350279,Yemen,"Natural Earth 10m largest polygon interior point, country-centred LAEA",355.965604541053
+160,Islamic Republic of Afghanistan,Afghanistan,AFG,65.1840453036234,33.9723500771171,Afghanistan,"Natural Earth 10m largest polygon interior point, country-centred LAEA",372.979964512085
+161,People's Republic of Bangladesh,Bangladesh,BGD,89.8551525293362,23.6952011165469,Bangladesh,"Natural Earth 10m largest polygon interior point, country-centred LAEA",55.1172825143443
+162,Kingdom of Bhutan,Bhutan,BTN,90.2991482847173,27.5277865717873,Bhutan,"Natural Earth 10m largest polygon interior point, country-centred LAEA",65.8060750146738
+163,Republic of India,India,IND,80.2238416176612,21.8092810822763,India,"Natural Earth 10m largest polygon interior point, country-centred LAEA",811.420616662873
+164,Federal Democratic Republic of Nepal,Nepal,NPL,83.0899550613024,28.4031331802517,Nepal,"Natural Earth 10m largest polygon interior point, country-centred LAEA",232.298368060977
+165,Islamic Republic of Pakistan,Pakistan,PAK,70.0956262024837,30.436971626464,Pakistan,"Natural Earth 10m largest polygon interior point, country-centred LAEA",688.845879414805
+168,Republic of Angola,Angola,AGO,18.863857403779,-11.9620613623673,Angola,"Natural Earth 10m largest polygon interior point, country-centred LAEA",706.586503581635
+169,Central African Republic,Central African Republic,CAF,20.6215141615931,6.62555339583955,Central African Republic,"Natural Earth 10m largest polygon interior point, country-centred LAEA",337.736158871274
+170,Republic of the Congo,Republic of Congo,COG,16.06790137934,-0.654248506889654,Republic of the Congo,"Natural Earth 10m largest polygon interior point, country-centred LAEA",409.26310974679
+171,Democratic Republic of the Congo,NA,COD,22.4707543221979,-4.03704814085653,Democratic Republic of the Congo,"Natural Earth 10m largest polygon interior point, country-centred LAEA",795.435183832143
+172,Republic of Equatorial Guinea,Equatorial Guinea,GNQ,10.4736633000935,1.63000678254601,Equatorial Guinea,"Natural Earth 10m largest polygon interior point, country-centred LAEA",300.70482968536
+173,Gabonese Republic,Gabon,GAB,11.7338451357395,-0.815881917816395,Gabon,"Natural Earth 10m largest polygon interior point, country-centred LAEA",286.645230437415
+175,Republic of Burundi,Burundi,BDI,29.9178297406311,-3.38484199931195,Burundi,"Natural Earth 10m largest polygon interior point, country-centred LAEA",61.2454541266357
+176,Union of the Comoros,Comoros,COM,43.3147433014619,-11.6485825594032,Comoros,"Natural Earth 10m largest polygon interior point, country-centred LAEA",130.827626806501
+177,Republic of Djibouti,Djibouti,DJI,42.4962930542609,11.8205079953697,Djibouti,"Natural Earth 10m largest polygon interior point, country-centred LAEA",75.3323468053877
+178,State of Eritrea,Eritrea,ERI,38.0910799143705,15.2019249158528,Eritrea,"Natural Earth 10m largest polygon interior point, country-centred LAEA",92.4986057221063
+179,Federal Democratic Republic of Ethiopia,Ethiopia,ETH,38.9692336576614,9.15732737590939,Ethiopia,"Natural Earth 10m largest polygon interior point, country-centred LAEA",28.867429139333
+180,Republic of Kenya,Kenya,KEN,37.4480537453147,0.155671488086678,Kenya,"Natural Earth 10m largest polygon interior point, country-centred LAEA",174.231269070538
+181,Republic of Madagascar,Madagascar,MDG,46.728660812749,-18.7850021399491,Madagascar,"Natural Earth 10m largest polygon interior point, country-centred LAEA",85.0570178682578
+182,Republic of Malawi,Malawi,MWI,33.7362519313563,-13.2762378728705,Malawi,"Natural Earth 10m largest polygon interior point, country-centred LAEA",76.610890445061
+183,Republic of Mauritius,Mauritius,MUS,57.5830004460251,-20.2537624584578,Mauritius,"Natural Earth 10m largest polygon interior point, country-centred LAEA",12.8720827075769
+184,Republic of Mozambique,Mozambique,MOZ,34.6454045686224,-18.6754865290369,Mozambique,"Natural Earth 10m largest polygon interior point, country-centred LAEA",829.51200038091
+185,Republic of Rwanda,Rwanda,RWA,29.9807400131852,-1.94747004817758,Rwanda,"Natural Earth 10m largest polygon interior point, country-centred LAEA",8.91067277194474
+186,Republic of Seychelles,Seychelles,SYC,55.4908414281127,-4.68557723853075,Seychelles,"Natural Earth 10m largest polygon interior point, country-centred LAEA",8.11346343816819
+187,Federal Republic of Somalia,Somalia,SOM,46.7568811035601,5.12942731420914,Somalia,"Natural Earth 10m largest polygon interior point, country-centred LAEA",376.129661279817
+189,United Republic of Tanzania,Tanzania,TZA,34.209071845667,-6.37408276539837,United Republic of Tanzania,"Natural Earth 10m largest polygon interior point, country-centred LAEA",562.937990397249
+190,Republic of Uganda,Uganda,UGA,32.683907845528,1.38108011346947,Uganda,"Natural Earth 10m largest polygon interior point, country-centred LAEA",118.588165860341
+191,Republic of Zambia,Zambia,ZMB,25.4194161911756,-13.1505935423052,Zambia,"Natural Earth 10m largest polygon interior point, country-centred LAEA",397.913198532154
+193,Republic of Botswana,Botswana,BWA,24.4754360003827,-22.3657810602702,Botswana,"Natural Earth 10m largest polygon interior point, country-centred LAEA",292.926551368794
+194,Kingdom of Lesotho,Lesotho,LSO,28.1862472378293,-29.6133220519753,Lesotho,"Natural Earth 10m largest polygon interior point, country-centred LAEA",76.3130495980449
+195,Republic of Namibia,Namibia,NAM,17.2335783595151,-22.9780854955581,Namibia,"Natural Earth 10m largest polygon interior point, country-centred LAEA",47.7440416876487
+196,Republic of South Africa,South Africa,ZAF,26.0927967048126,-28.549172569099,South Africa,"Natural Earth 10m largest polygon interior point, country-centred LAEA",323.75038514879
+197,Kingdom of Eswatini,Swaziland,SWZ,31.447855247896,-26.5410939754892,eSwatini,"Natural Earth 10m largest polygon interior point, country-centred LAEA",7.85334988425322
+198,Republic of Zimbabwe,Zimbabwe,ZWE,29.3238783583685,-19.0140872967874,Zimbabwe,"Natural Earth 10m largest polygon interior point, country-centred LAEA",224.810738400072
+200,Republic of Benin,Benin,BEN,2.28103065355273,9.30811906607516,Benin,"Natural Earth 10m largest polygon interior point, country-centred LAEA",325.736595548613
+201,Burkina Faso,Burkina Faso,BFA,-1.20911529269151,12.2434148515342,Burkina Faso,"Natural Earth 10m largest polygon interior point, country-centred LAEA",37.2993448658
+202,Republic of Cameroon,Cameroon,CMR,13.6061821070492,7.36700042798649,Cameroon,"Natural Earth 10m largest polygon interior point, country-centred LAEA",567.19772746821
+203,Republic of Cabo Verde,Cape Verde,CPV,-23.6428633279843,15.1212606682654,Cabo Verde,"Natural Earth 10m largest polygon interior point, country-centred LAEA",242.613067140362
+204,Republic of Chad,Chad,TCD,18.5397821182534,15.4582614346735,Chad,"Natural Earth 10m largest polygon interior point, country-centred LAEA",529.526716445609
+205,Republic of Côte d'Ivoire,Ivory Coast,CIV,-5.69252581915721,7.52877377597444,Ivory Coast,"Natural Earth 10m largest polygon interior point, country-centred LAEA",304.523955955358
+206,Republic of the Gambia,Gambia,GMB,-14.343495937897,13.4453669710575,Gambia,"Natural Earth 10m largest polygon interior point, country-centred LAEA",242.032005776875
+207,Republic of Ghana,Ghana,GHA,-1.0772791134173,7.95511825427963,Ghana,"Natural Earth 10m largest polygon interior point, country-centred LAEA",151.407035089603
+208,Republic of Guinea,Guinea,GIN,-9.67689592881218,9.94472895815913,Guinea,"Natural Earth 10m largest polygon interior point, country-centred LAEA",445.401333497738
+209,Republic of Guinea-Bissau,Guinea-Bissau,GNB,-14.3559999379488,11.8050234781987,Guinea-Bissau,"Natural Earth 10m largest polygon interior point, country-centred LAEA",132.025376851436
+210,Republic of Liberia,Liberia,LBR,-9.68484131566458,6.45663024480192,Liberia,"Natural Earth 10m largest polygon interior point, country-centred LAEA",124.541544234168
+211,Republic of Mali,Mali,MLI,-0.752719669939639,17.6130164215745,Mali,"Natural Earth 10m largest polygon interior point, country-centred LAEA",952.39801884731
+212,Islamic Republic of Mauritania,Mauritania,MRT,-11.4381757304968,21.0124331924085,Mauritania,"Natural Earth 10m largest polygon interior point, country-centred LAEA",576.106966198321
+213,Republic of the Niger,Niger,NER,9.88104935662354,17.6482659477935,Niger,"Natural Earth 10m largest polygon interior point, country-centred LAEA",949.77615204493
+214,Federal Republic of Nigeria,Nigeria,NGA,7.83814655994367,9.08180173766798,Nigeria,"Natural Earth 10m largest polygon interior point, country-centred LAEA",570.72139366135
+215,Democratic Republic of Sao Tome and Principe,Sao Tome and Principe,STP,6.60119838351214,0.215523505875007,S<U+00E3>o Tom<U+00E9> and Principe,"Natural Earth 10m largest polygon interior point, country-centred LAEA",19.6277465786721
+216,Republic of Senegal,Senegal,SEN,-14.6574944502927,14.501378063509,Senegal,"Natural Earth 10m largest polygon interior point, country-centred LAEA",299.562180365378
+217,Republic of Sierra Leone,Sierra Leone,SLE,-11.8918573171517,8.45582277403205,Sierra Leone,"Natural Earth 10m largest polygon interior point, country-centred LAEA",147.720079746459
+218,Togolese Republic,Togo,TGO,1.01512400311034,8.6350014314118,Togo,"Natural Earth 10m largest polygon interior point, country-centred LAEA",277.824056650903
+298,American Samoa,American Samoa,ASM,-170.753448721555,-14.3111419972041,American Samoa,"Natural Earth 10m largest polygon interior point, country-centred LAEA",6.6832671191389
+305,Bermuda,Bermuda,BMU,-64.728027699269,32.3191995657324,Bermuda,"Natural Earth 10m largest polygon interior point, country-centred LAEA",5.78154218633426
+320,Cook Islands,Cook Islands,COK,-159.786796722862,-21.2215385720736,Cook Islands,"Natural Earth 10m largest polygon interior point, country-centred LAEA",2.29800516964574
+349,Greenland,Greenland,GRL,-39.9341305041616,71.9098746617855,Greenland,"Natural Earth 10m largest polygon interior point, country-centred LAEA",989.312479651929
+351,Guam,Guam,GUM,144.760538849231,13.4596259955912,Guam,"Natural Earth 10m largest polygon interior point, country-centred LAEA",3.14402402862586
+367,Principality of Monaco,Monaco,MCO,7.40292973295942,43.7416123907424,Monaco,"Natural Earth 10m largest polygon interior point, country-centred LAEA",1.44345791953155
+369,Republic of Nauru,Nauru,NRU,166.932518154141,-0.521254216027885,Nauru,"Natural Earth 10m largest polygon interior point, country-centred LAEA",2.81906858857216
+374,Republic of Niue,Niue,NIU,-169.864313214715,-19.0580528233868,Niue,"Natural Earth 10m largest polygon interior point, country-centred LAEA",5.97095690425777
+376,Northern Mariana Islands,Northern Mariana Islands,MNP,145.736474337076,15.186044995099,Northern Mariana Islands,"Natural Earth 10m largest polygon interior point, country-centred LAEA",3.62723139385644
+380,Republic of Palau,Palau,PLW,134.580891256002,7.54428061337406,Palau,"Natural Earth 10m largest polygon interior point, country-centred LAEA",25.0388568732637
+385,Puerto Rico,Puerto Rico,PRI,-66.4018870570644,18.223070982115,Puerto Rico,"Natural Earth 10m largest polygon interior point, country-centred LAEA",40.9358086094379
+393,Saint Kitts and Nevis,Saint Kitts,KNA,-62.7494705750488,17.3174172897661,Saint Kitts and Nevis,"Natural Earth 10m largest polygon interior point, country-centred LAEA",2.58280793138452
+396,Republic of San Marino,San Marino,SMR,12.4381936852112,43.9341907830727,San Marino,"Natural Earth 10m largest polygon interior point, country-centred LAEA",5.43742813979267
+413,Tokelau,NA,TKL,-172.48508942676,-8.56486244102575,Tokelau,Natural Earth 50m tiny-country supplied point,4.22362038522177
+416,Tuvalu,Tuvalu,TUV,179.205575696497,-8.50408294925221,Tuvalu,"Natural Earth 10m largest polygon interior point, country-centred LAEA",1.52447873249793
+422,United States Virgin Islands,Virgin Islands,VIR,-64.7574225103335,17.7330356136122,United States Virgin Islands,"Natural Earth 10m largest polygon interior point, country-centred LAEA",69.9199819761192
+435,Republic of South Sudan,South Sudan,SSD,29.1323503145305,7.84877784776525,South Sudan,"Natural Earth 10m largest polygon interior point, country-centred LAEA",429.84785407232
+522,Republic of Sudan,Sudan,SDN,29.7668906421836,15.4809397856544,Sudan,"Natural Earth 10m largest polygon interior point, country-centred LAEA",296.342919619438

@@ -11,9 +11,20 @@ The study uses GBD 2021 incidence estimates for 1992–2021. It describes ecolog
 - `reference_results`: aggregate published summaries for numerical verification.
 - `docs/DATA_ACCESS.md`: official acquisition steps and required private input schemas.
 - `docs/private_input_manifest.json`: hashes and schemas of the original local input snapshots.
-- `docs/figure_source_map.csv`: figure-to-result mapping, using the final S2 age / S3 scenario numbering.
+- `docs/figure_source_map.csv`: final manuscript figure labels, archived output stems, and figure-to-result mappings (S2 age, S3 scenario, S4 predictive testing, and main Figure 5 spatial associations).
 - `docs/analysis_map.csv`: analysis-to-supplement mapping; `docs/supplement_sheet_map.csv` maps the 78 data/provenance sheets to Tables S1–S11.
 - `CITATION.cff` and `.zenodo.json`: release citation/archival metadata. Version 1.0.0 is archived at [doi:10.5281/zenodo.24244948](https://doi.org/10.5281/zenodo.24244948).
+
+## Manuscript figure numbering
+
+The Granger-based predictive analysis is reported in the Supplement. The frozen v1.0.0 scripts retain their archived output stems; match these outputs to the revised manuscript as follows:
+
+| Archived output stem | Revised manuscript label |
+| --- | --- |
+| `Figure_5` | Figure S4, predictive-test definitions and specification sensitivity |
+| `Figure_6` | Figure 5, local ecological coefficients and coordinate sensitivity |
+
+The other figure labels are unchanged. The full mapping, including the archived output stem for every figure, is supplied in `docs/figure_source_map.csv`. The analysis code, numerical results and v1.0.0 archive are unchanged.
 
 ## Environment
 

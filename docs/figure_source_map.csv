@@ -1,10 +1,10 @@
-figure,source,claim
-Figure_1,S2 + S11,Country incidence burdens and continuous distributions
-Figure_2,S6 + S7 + S11,Age-profile and age-stratified ecological patterns
-Figure_3,S3,Three rank-based categories over time
-Figure_4,A7 + A28 + A30 + A31,Forecast performance at three- and nine-year horizons
-Figure_5,A1 + A2 + A20,"Disease-equation and system test definitions, with specification sensitivity"
-Figure_6,S12 + GWR_sensitivity_coefficients + existing BH204 flags,Local conditional associations with all approximate BH rejections marked; coordinate sensitivity unchanged
-Figure_S1,S4,Threshold sensitivity relative to independent margins
-Figure_S2,age_time_summary,Within-country age-specific temporal correlations in levels and log differences
-Figure_S3,S1 + A27,ARIMAX conditional scenarios with uncalibrated intervals
+figure,archived_output_name,source,claim
+Figure_1,Figure_1,S2 + S11,Country incidence burdens and continuous distributions
+Figure_2,Figure_2,S6 + S7 + S11,Age-profile and age-stratified ecological patterns
+Figure_3,Figure_3,S3,Three rank-based categories over time
+Figure_4,Figure_4,A7 + A28 + A30 + A31,Forecast performance at three- and nine-year horizons
+Figure_5,Figure_6,S12 + GWR_sensitivity_coefficients + existing BH204 flags,Local conditional associations with all approximate BH rejections marked; coordinate sensitivity unchanged
+Figure_S1,Figure_S1,S4,Threshold sensitivity relative to independent margins
+Figure_S2,Figure_S2,age_time_summary,Within-country age-specific temporal correlations in levels and log differences
+Figure_S3,Figure_S3,S1 + A27,ARIMAX conditional scenarios with uncalibrated intervals
+Figure_S4,Figure_5,A1 + A2 + A20,"Disease-equation and system test definitions, with specification sensitivity"
